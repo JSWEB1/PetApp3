@@ -29,6 +29,12 @@ namespace WindowsFormsApp1
                 edNomeCli.Enabled = false;
                 edNasCli.Enabled = false;
             }
+            else
+            {
+                edInsEsCli.Enabled = false;
+                edCNPJCli.Enabled = false;
+                edRaSoCli.Enabled = false;
+            }
         }
     }
 }

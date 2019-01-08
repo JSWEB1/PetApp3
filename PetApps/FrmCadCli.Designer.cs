@@ -64,15 +64,7 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.btnAddPet = new System.Windows.Forms.Button();
-            this.edNomePet = new DevExpress.XtraEditors.TextEdit();
-            this.edRacaPet = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
-            this.edNasPet = new System.Windows.Forms.DateTimePicker();
-            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
-            this.edCorPet = new DevExpress.XtraEditors.TextEdit();
+            this.peImgPET = new DevExpress.XtraEditors.PictureEdit();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -81,7 +73,15 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.peImgPET = new DevExpress.XtraEditors.PictureEdit();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.edCorPet = new DevExpress.XtraEditors.TextEdit();
+            this.edNasPet = new System.Windows.Forms.DateTimePicker();
+            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.edRacaPet = new DevExpress.XtraEditors.TextEdit();
+            this.edNomePet = new DevExpress.XtraEditors.TextEdit();
+            this.btnAddPet = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.edNomeCli.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.edTelCli.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -104,58 +104,64 @@
             ((System.ComponentModel.ISupportInitialize)(this.edRua.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.edNomePet.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.edRacaPet.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.edCorPet.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.peImgPET.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.peImgPET.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edCorPet.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edRacaPet.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edNomePet.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // edNomeCli
             // 
-            this.edNomeCli.Location = new System.Drawing.Point(5, 70);
+            this.edNomeCli.Location = new System.Drawing.Point(8, 108);
+            this.edNomeCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edNomeCli.Name = "edNomeCli";
-            this.edNomeCli.Size = new System.Drawing.Size(100, 20);
+            this.edNomeCli.Size = new System.Drawing.Size(150, 26);
             this.edNomeCli.TabIndex = 1;
             // 
             // edTelCli
             // 
-            this.edTelCli.Location = new System.Drawing.Point(149, 70);
+            this.edTelCli.Location = new System.Drawing.Point(224, 108);
+            this.edTelCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edTelCli.Name = "edTelCli";
-            this.edTelCli.Size = new System.Drawing.Size(100, 20);
+            this.edTelCli.Size = new System.Drawing.Size(150, 26);
             this.edTelCli.TabIndex = 2;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(5, 50);
+            this.labelControl1.Location = new System.Drawing.Point(8, 77);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(27, 13);
+            this.labelControl1.Size = new System.Drawing.Size(42, 19);
             this.labelControl1.TabIndex = 4;
             this.labelControl1.Text = "Nome";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(149, 51);
+            this.labelControl2.Location = new System.Drawing.Point(224, 78);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(42, 13);
+            this.labelControl2.Size = new System.Drawing.Size(61, 19);
             this.labelControl2.TabIndex = 5;
             this.labelControl2.Text = "Telefone";
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(396, 51);
+            this.labelControl3.Location = new System.Drawing.Point(594, 78);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(55, 13);
+            this.labelControl3.Size = new System.Drawing.Size(82, 19);
             this.labelControl3.TabIndex = 6;
             this.labelControl3.Text = "Nascimento";
             // 
             // edNasCli
             // 
             this.edNasCli.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.edNasCli.Location = new System.Drawing.Point(396, 69);
+            this.edNasCli.Location = new System.Drawing.Point(594, 106);
+            this.edNasCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edNasCli.Name = "edNasCli";
-            this.edNasCli.Size = new System.Drawing.Size(120, 21);
+            this.edNasCli.Size = new System.Drawing.Size(178, 27);
             this.edNasCli.TabIndex = 11;
             // 
             // groupControl1
@@ -181,110 +187,124 @@
             this.groupControl1.Controls.Add(this.labelControl3);
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
+            this.groupControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(586, 145);
+            this.groupControl1.Size = new System.Drawing.Size(879, 223);
             this.groupControl1.TabIndex = 12;
             this.groupControl1.Text = "Informações do Cliente";
             // 
             // edDDDCel
             // 
-            this.edDDDCel.Location = new System.Drawing.Point(250, 70);
+            this.edDDDCel.Location = new System.Drawing.Point(375, 108);
+            this.edDDDCel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edDDDCel.Name = "edDDDCel";
-            this.edDDDCel.Size = new System.Drawing.Size(42, 20);
+            this.edDDDCel.Size = new System.Drawing.Size(63, 26);
             this.edDDDCel.TabIndex = 23;
             // 
             // labelControl15
             // 
-            this.labelControl15.Location = new System.Drawing.Point(250, 55);
+            this.labelControl15.Location = new System.Drawing.Point(375, 85);
+            this.labelControl15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(21, 13);
+            this.labelControl15.Size = new System.Drawing.Size(33, 19);
             this.labelControl15.TabIndex = 24;
             this.labelControl15.Text = "DDD";
             // 
             // edCelCli
             // 
-            this.edCelCli.Location = new System.Drawing.Point(294, 70);
+            this.edCelCli.Location = new System.Drawing.Point(441, 108);
+            this.edCelCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edCelCli.Name = "edCelCli";
-            this.edCelCli.Size = new System.Drawing.Size(100, 20);
+            this.edCelCli.Size = new System.Drawing.Size(150, 26);
             this.edCelCli.TabIndex = 21;
             // 
             // labelControl16
             // 
-            this.labelControl16.Location = new System.Drawing.Point(294, 55);
+            this.labelControl16.Location = new System.Drawing.Point(441, 85);
+            this.labelControl16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(33, 13);
+            this.labelControl16.Size = new System.Drawing.Size(49, 19);
             this.labelControl16.TabIndex = 22;
             this.labelControl16.Text = "Celular";
             // 
             // edInsEsCli
             // 
-            this.edInsEsCli.Location = new System.Drawing.Point(250, 115);
+            this.edInsEsCli.Location = new System.Drawing.Point(375, 177);
+            this.edInsEsCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edInsEsCli.Name = "edInsEsCli";
-            this.edInsEsCli.Size = new System.Drawing.Size(100, 20);
+            this.edInsEsCli.Size = new System.Drawing.Size(150, 26);
             this.edInsEsCli.TabIndex = 20;
             // 
             // labelControl14
             // 
-            this.labelControl14.Location = new System.Drawing.Point(250, 96);
+            this.labelControl14.Location = new System.Drawing.Point(375, 148);
+            this.labelControl14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(87, 13);
+            this.labelControl14.Size = new System.Drawing.Size(127, 19);
             this.labelControl14.TabIndex = 19;
             this.labelControl14.Text = "Inscrição Estadual";
             // 
             // edDDDTel
             // 
-            this.edDDDTel.Location = new System.Drawing.Point(106, 70);
+            this.edDDDTel.Location = new System.Drawing.Point(159, 108);
+            this.edDDDTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edDDDTel.Name = "edDDDTel";
-            this.edDDDTel.Size = new System.Drawing.Size(42, 20);
+            this.edDDDTel.Size = new System.Drawing.Size(63, 26);
             this.edDDDTel.TabIndex = 17;
             // 
             // labelControl13
             // 
-            this.labelControl13.Location = new System.Drawing.Point(106, 51);
+            this.labelControl13.Location = new System.Drawing.Point(159, 78);
+            this.labelControl13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(21, 13);
+            this.labelControl13.Size = new System.Drawing.Size(33, 19);
             this.labelControl13.TabIndex = 18;
             this.labelControl13.Text = "DDD";
             // 
             // labelControl12
             // 
-            this.labelControl12.Location = new System.Drawing.Point(149, 96);
+            this.labelControl12.Location = new System.Drawing.Point(224, 148);
+            this.labelControl12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(25, 13);
+            this.labelControl12.Size = new System.Drawing.Size(37, 19);
             this.labelControl12.TabIndex = 16;
             this.labelControl12.Text = "CNPJ";
             // 
             // edCNPJCli
             // 
-            this.edCNPJCli.Location = new System.Drawing.Point(149, 115);
+            this.edCNPJCli.Location = new System.Drawing.Point(224, 177);
+            this.edCNPJCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edCNPJCli.Name = "edCNPJCli";
-            this.edCNPJCli.Size = new System.Drawing.Size(100, 20);
+            this.edCNPJCli.Size = new System.Drawing.Size(150, 26);
             this.edCNPJCli.TabIndex = 15;
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(5, 96);
+            this.labelControl11.Location = new System.Drawing.Point(8, 148);
+            this.labelControl11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(60, 13);
+            this.labelControl11.Size = new System.Drawing.Size(88, 19);
             this.labelControl11.TabIndex = 14;
             this.labelControl11.Text = "Razão Social";
             // 
             // edRaSoCli
             // 
-            this.edRaSoCli.Location = new System.Drawing.Point(5, 115);
+            this.edRaSoCli.Location = new System.Drawing.Point(8, 177);
+            this.edRaSoCli.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edRaSoCli.Name = "edRaSoCli";
-            this.edRaSoCli.Size = new System.Drawing.Size(143, 20);
+            this.edRaSoCli.Size = new System.Drawing.Size(214, 26);
             this.edRaSoCli.TabIndex = 13;
             // 
             // rgPesTipo
             // 
             this.rgPesTipo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rgPesTipo.Location = new System.Drawing.Point(2, 20);
+            this.rgPesTipo.Location = new System.Drawing.Point(3, 30);
+            this.rgPesTipo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rgPesTipo.Name = "rgPesTipo";
             this.rgPesTipo.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
             new DevExpress.XtraEditors.Controls.RadioGroupItem("FIS", "Pessoa Física"),
             new DevExpress.XtraEditors.Controls.RadioGroupItem("JUR", "Pessoa Jurídica")});
-            this.rgPesTipo.Size = new System.Drawing.Size(582, 23);
+            this.rgPesTipo.Size = new System.Drawing.Size(873, 35);
             this.rgPesTipo.TabIndex = 12;
             this.rgPesTipo.EditValueChanged += new System.EventHandler(this.rgPesTipo_EditValueChanged);
             // 
@@ -305,114 +325,129 @@
             this.groupControl2.Controls.Add(this.labelControl6);
             this.groupControl2.Controls.Add(this.labelControl8);
             this.groupControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupControl2.Location = new System.Drawing.Point(0, 378);
+            this.groupControl2.Location = new System.Drawing.Point(0, 581);
+            this.groupControl2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(586, 120);
+            this.groupControl2.Size = new System.Drawing.Size(879, 185);
             this.groupControl2.TabIndex = 13;
             this.groupControl2.Text = "Endereço";
             // 
             // labelControl17
             // 
-            this.labelControl17.Location = new System.Drawing.Point(107, 69);
+            this.labelControl17.Location = new System.Drawing.Point(160, 106);
+            this.labelControl17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(19, 13);
+            this.labelControl17.Size = new System.Drawing.Size(28, 19);
             this.labelControl17.TabIndex = 19;
             this.labelControl17.Text = "País";
             // 
             // edPais
             // 
-            this.edPais.Location = new System.Drawing.Point(107, 88);
+            this.edPais.Location = new System.Drawing.Point(160, 135);
+            this.edPais.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edPais.Name = "edPais";
-            this.edPais.Size = new System.Drawing.Size(100, 20);
+            this.edPais.Size = new System.Drawing.Size(150, 26);
             this.edPais.TabIndex = 18;
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(5, 69);
+            this.labelControl10.Location = new System.Drawing.Point(8, 106);
+            this.labelControl10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(33, 13);
+            this.labelControl10.Size = new System.Drawing.Size(48, 19);
             this.labelControl10.TabIndex = 17;
             this.labelControl10.Text = "Cidade";
             // 
             // edCidade
             // 
-            this.edCidade.Location = new System.Drawing.Point(5, 88);
+            this.edCidade.Location = new System.Drawing.Point(8, 135);
+            this.edCidade.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edCidade.Name = "edCidade";
-            this.edCidade.Size = new System.Drawing.Size(100, 20);
+            this.edCidade.Size = new System.Drawing.Size(150, 26);
             this.edCidade.TabIndex = 16;
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(412, 24);
+            this.labelControl9.Location = new System.Drawing.Point(618, 37);
+            this.labelControl9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(33, 13);
+            this.labelControl9.Size = new System.Drawing.Size(47, 19);
             this.labelControl9.TabIndex = 15;
             this.labelControl9.Text = "Estado";
             // 
             // edEstado
             // 
-            this.edEstado.Location = new System.Drawing.Point(412, 43);
+            this.edEstado.Location = new System.Drawing.Point(618, 66);
+            this.edEstado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edEstado.Name = "edEstado";
-            this.edEstado.Size = new System.Drawing.Size(100, 20);
+            this.edEstado.Size = new System.Drawing.Size(150, 26);
             this.edEstado.TabIndex = 14;
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(310, 24);
+            this.labelControl7.Location = new System.Drawing.Point(465, 37);
+            this.labelControl7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(37, 13);
+            this.labelControl7.Size = new System.Drawing.Size(57, 19);
             this.labelControl7.TabIndex = 13;
             this.labelControl7.Text = "Numero";
             // 
             // edNumero
             // 
-            this.edNumero.Location = new System.Drawing.Point(310, 43);
+            this.edNumero.Location = new System.Drawing.Point(465, 66);
+            this.edNumero.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edNumero.Name = "edNumero";
-            this.edNumero.Size = new System.Drawing.Size(100, 20);
+            this.edNumero.Size = new System.Drawing.Size(150, 26);
             this.edNumero.TabIndex = 12;
             // 
             // edBairro
             // 
-            this.edBairro.Location = new System.Drawing.Point(208, 43);
+            this.edBairro.Location = new System.Drawing.Point(312, 66);
+            this.edBairro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edBairro.Name = "edBairro";
-            this.edBairro.Size = new System.Drawing.Size(100, 20);
+            this.edBairro.Size = new System.Drawing.Size(150, 26);
             this.edBairro.TabIndex = 11;
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(5, 24);
+            this.labelControl5.Location = new System.Drawing.Point(8, 37);
+            this.labelControl5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(19, 13);
+            this.labelControl5.Size = new System.Drawing.Size(28, 19);
             this.labelControl5.TabIndex = 4;
             this.labelControl5.Text = "CEP";
             // 
             // edCEP
             // 
-            this.edCEP.Location = new System.Drawing.Point(5, 43);
+            this.edCEP.Location = new System.Drawing.Point(8, 66);
+            this.edCEP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edCEP.Name = "edCEP";
-            this.edCEP.Size = new System.Drawing.Size(100, 20);
+            this.edCEP.Size = new System.Drawing.Size(150, 26);
             this.edCEP.TabIndex = 1;
             // 
             // edRua
             // 
-            this.edRua.Location = new System.Drawing.Point(107, 43);
+            this.edRua.Location = new System.Drawing.Point(160, 66);
+            this.edRua.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.edRua.Name = "edRua";
-            this.edRua.Size = new System.Drawing.Size(100, 20);
+            this.edRua.Size = new System.Drawing.Size(150, 26);
             this.edRua.TabIndex = 2;
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(106, 24);
+            this.labelControl6.Location = new System.Drawing.Point(159, 37);
+            this.labelControl6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(19, 13);
+            this.labelControl6.Size = new System.Drawing.Size(27, 19);
             this.labelControl6.TabIndex = 5;
             this.labelControl6.Text = "Rua";
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(208, 24);
+            this.labelControl8.Location = new System.Drawing.Point(312, 37);
+            this.labelControl8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(28, 13);
+            this.labelControl8.Size = new System.Drawing.Size(42, 19);
             this.labelControl8.TabIndex = 6;
             this.labelControl8.Text = "Bairro";
             // 
@@ -430,89 +465,33 @@
             this.groupControl3.Controls.Add(this.edNomePet);
             this.groupControl3.Controls.Add(this.btnAddPet);
             this.groupControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl3.Location = new System.Drawing.Point(0, 145);
+            this.groupControl3.Location = new System.Drawing.Point(0, 223);
+            this.groupControl3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(586, 233);
+            this.groupControl3.Size = new System.Drawing.Size(879, 358);
             this.groupControl3.TabIndex = 14;
             this.groupControl3.Text = "PETS";
             // 
-            // btnAddPet
+            // peImgPET
             // 
-            this.btnAddPet.Location = new System.Drawing.Point(486, 44);
-            this.btnAddPet.Name = "btnAddPet";
-            this.btnAddPet.Size = new System.Drawing.Size(93, 23);
-            this.btnAddPet.TabIndex = 0;
-            this.btnAddPet.Text = "Adicionar";
-            this.btnAddPet.UseVisualStyleBackColor = true;
-            // 
-            // edNomePet
-            // 
-            this.edNomePet.Location = new System.Drawing.Point(82, 45);
-            this.edNomePet.Name = "edNomePet";
-            this.edNomePet.Size = new System.Drawing.Size(100, 20);
-            this.edNomePet.TabIndex = 1;
-            // 
-            // edRacaPet
-            // 
-            this.edRacaPet.Location = new System.Drawing.Point(183, 45);
-            this.edRacaPet.Name = "edRacaPet";
-            this.edRacaPet.Size = new System.Drawing.Size(100, 20);
-            this.edRacaPet.TabIndex = 2;
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Location = new System.Drawing.Point(82, 26);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(63, 13);
-            this.labelControl4.TabIndex = 4;
-            this.labelControl4.Text = "Nome do PET";
-            // 
-            // labelControl18
-            // 
-            this.labelControl18.Location = new System.Drawing.Point(181, 26);
-            this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(24, 13);
-            this.labelControl18.TabIndex = 5;
-            this.labelControl18.Text = "Raça";
-            // 
-            // labelControl19
-            // 
-            this.labelControl19.Location = new System.Drawing.Point(386, 27);
-            this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(55, 13);
-            this.labelControl19.TabIndex = 6;
-            this.labelControl19.Text = "Nascimento";
-            // 
-            // edNasPet
-            // 
-            this.edNasPet.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.edNasPet.Location = new System.Drawing.Point(386, 45);
-            this.edNasPet.Name = "edNasPet";
-            this.edNasPet.Size = new System.Drawing.Size(100, 21);
-            this.edNasPet.TabIndex = 25;
-            // 
-            // labelControl20
-            // 
-            this.labelControl20.Location = new System.Drawing.Point(284, 26);
-            this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(17, 13);
-            this.labelControl20.TabIndex = 27;
-            this.labelControl20.Text = "Cor";
-            // 
-            // edCorPet
-            // 
-            this.edCorPet.Location = new System.Drawing.Point(284, 45);
-            this.edCorPet.Name = "edCorPet";
-            this.edCorPet.Size = new System.Drawing.Size(100, 20);
-            this.edCorPet.TabIndex = 26;
+            this.peImgPET.Cursor = System.Windows.Forms.Cursors.Default;
+            this.peImgPET.Location = new System.Drawing.Point(8, 37);
+            this.peImgPET.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.peImgPET.Name = "peImgPET";
+            this.peImgPET.Properties.NullText = "Imagem";
+            this.peImgPET.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.peImgPET.Size = new System.Drawing.Size(106, 105);
+            this.peImgPET.TabIndex = 29;
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gridControl1.Location = new System.Drawing.Point(2, 98);
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gridControl1.Location = new System.Drawing.Point(3, 150);
             this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(582, 133);
+            this.gridControl1.Size = new System.Drawing.Size(873, 205);
             this.gridControl1.TabIndex = 28;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -578,23 +557,94 @@
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
-            // peImgPET
+            // labelControl20
             // 
-            this.peImgPET.Cursor = System.Windows.Forms.Cursors.Default;
-            this.peImgPET.Location = new System.Drawing.Point(5, 24);
-            this.peImgPET.Name = "peImgPET";
-            this.peImgPET.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.peImgPET.Size = new System.Drawing.Size(71, 68);
-            this.peImgPET.TabIndex = 29;
+            this.labelControl20.Location = new System.Drawing.Point(426, 40);
+            this.labelControl20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelControl20.Name = "labelControl20";
+            this.labelControl20.Size = new System.Drawing.Size(25, 19);
+            this.labelControl20.TabIndex = 27;
+            this.labelControl20.Text = "Cor";
+            // 
+            // edCorPet
+            // 
+            this.edCorPet.Location = new System.Drawing.Point(426, 69);
+            this.edCorPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.edCorPet.Name = "edCorPet";
+            this.edCorPet.Size = new System.Drawing.Size(150, 26);
+            this.edCorPet.TabIndex = 26;
+            // 
+            // edNasPet
+            // 
+            this.edNasPet.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.edNasPet.Location = new System.Drawing.Point(579, 69);
+            this.edNasPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.edNasPet.Name = "edNasPet";
+            this.edNasPet.Size = new System.Drawing.Size(148, 27);
+            this.edNasPet.TabIndex = 25;
+            // 
+            // labelControl19
+            // 
+            this.labelControl19.Location = new System.Drawing.Point(579, 42);
+            this.labelControl19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelControl19.Name = "labelControl19";
+            this.labelControl19.Size = new System.Drawing.Size(82, 19);
+            this.labelControl19.TabIndex = 6;
+            this.labelControl19.Text = "Nascimento";
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Location = new System.Drawing.Point(272, 40);
+            this.labelControl18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(33, 19);
+            this.labelControl18.TabIndex = 5;
+            this.labelControl18.Text = "Raça";
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(123, 40);
+            this.labelControl4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(98, 19);
+            this.labelControl4.TabIndex = 4;
+            this.labelControl4.Text = "Nome do PET";
+            // 
+            // edRacaPet
+            // 
+            this.edRacaPet.Location = new System.Drawing.Point(274, 69);
+            this.edRacaPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.edRacaPet.Name = "edRacaPet";
+            this.edRacaPet.Size = new System.Drawing.Size(150, 26);
+            this.edRacaPet.TabIndex = 2;
+            // 
+            // edNomePet
+            // 
+            this.edNomePet.Location = new System.Drawing.Point(123, 69);
+            this.edNomePet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.edNomePet.Name = "edNomePet";
+            this.edNomePet.Size = new System.Drawing.Size(150, 26);
+            this.edNomePet.TabIndex = 1;
+            // 
+            // btnAddPet
+            // 
+            this.btnAddPet.Location = new System.Drawing.Point(729, 68);
+            this.btnAddPet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAddPet.Name = "btnAddPet";
+            this.btnAddPet.Size = new System.Drawing.Size(140, 35);
+            this.btnAddPet.TabIndex = 0;
+            this.btnAddPet.Text = "Adicionar";
+            this.btnAddPet.UseVisualStyleBackColor = true;
             // 
             // FrmCadCli
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(586, 498);
+            this.ClientSize = new System.Drawing.Size(879, 766);
             this.Controls.Add(this.groupControl3);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmCadCli";
             this.Text = "FrmCadCli";
             this.Load += new System.EventHandler(this.FrmCadCli_Load);
@@ -623,12 +673,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
             this.groupControl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.edNomePet.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.edRacaPet.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.edCorPet.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.peImgPET.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.peImgPET.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edCorPet.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edRacaPet.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.edNomePet.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
